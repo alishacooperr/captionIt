@@ -1,4 +1,3 @@
-
 anaconda-client==1.1.1
 anyio 
 appdirs==1.4.4
@@ -37,7 +36,6 @@ cloudpickle
 clyent==0.1.0
 colorama 
 conda==3.0.6
-conda-build==2.1.5
 conda-content-trust 
 conda-package-handling 
 conda-repo-cli 
