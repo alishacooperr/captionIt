@@ -85,7 +85,6 @@ notebook-as-pdf==0.5.0
 olefile==0.46
 pandas==1.2.4
 parso==0.7.0
-path_1614022213143/work
 pathspec==0.7.0
 patsy==0.5.1
 pep8==1.7.1
