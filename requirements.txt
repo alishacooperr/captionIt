@@ -41,7 +41,7 @@ jsonschema
 libarchive-c 
 llvmlite==0.36.0
 locket==0.2.1
-lxml @ file:///opt/concourse/worker/volumes/live/42fc56a4-88b4-4605-6037-9605f4e5eeeb/volume/lxml_1616443240194/work
+lxml 
 MarkupSafe==1.1.1
 mccabe==0.6.1
 mistune 
