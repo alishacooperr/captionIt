@@ -1,0 +1,50 @@
+body {
+	background: url(https://scontent.xx.fbcdn.net/v/t1.15752-9/274127775_254025330261484_8656847888342757973_n.png?_nc_cat=107&ccb=1-5&_nc_sid=aee45a&_nc_ohc=UW-iUr8fcqMAX8xB-xF&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AVIxFFzrbod-Xht5N2u9snh3e1qmbCVqgH-VogERa7cFvQ&oe=623F4144);
+	background-size: cover;
+	text-align: center;
+}
+
+p {
+	color: black;
+	font-family: Shanti;
+	font-size: 1.6em;
+	margin: 20px;
+	position: relative;
+	top: -60px;
+	left: -130px;
+}
+
+img {
+	width: 800px;
+	position:  relative;
+	left: -130px;
+}
+
+input {
+	width: 500px;
+	height: 50px;
+	margin: 20px;
+	border: none;
+	border-radius: 10px;
+	font-family: Shanti ;
+	text-align: center ;
+	font-size: 0.9em;
+	position: relative;
+	top: -60px;
+}
+
+input:focus {
+	border: solid 5px #EE82EE;
+	outline: none;
+}
+
+#enter {
+	background-color: violet;
+	color: white;
+	width: 200px;
+}
+
+#enter:hover {
+	background-color: plum;
+	cursor: pointer;
+}

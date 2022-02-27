@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title> captionIt!</title>
+		<link rel="stylesheet" href="{{ url_for('static', filename='css/main.css')}}">
+	</head>
+	<body>
+		<img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/274365876_4983422218362988_1031991947972830839_n.png?_nc_cat=104&ccb=1-5&_nc_sid=aee45a&_nc_ohc=tz_8wWq_1KMAX_Bxztp&_nc_oc=AQnCZvvw5VSDSMNReXaiU01BC8FK9BDrpfKyPJ5n1BZMQgkgl1s0b6DDWDVrwKLM_AEz-9gEyjDQJzRRuJ37FvVc&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AVJACqWYoBdYYCdps4csSUH3nL5jodOiJOT8HACpc8c7-g&oe=621B023D
+		">
+		<br>
+		<form action="enter" method="post">
+			{% for message in get_flashed_messages()%}
+				<p> {{message}} <p>
+			{%  endfor %}
+			<br>
+			<br>
+			<input type="text" name="words_input">
+			<br>
+			<input type="submit" value="Enter" id="enter">
+		</form>
+	</body>
+</html>
