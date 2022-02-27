@@ -2,7 +2,6 @@ from flask import Flask, render_template, request, flash
 from pandas import DataFrame
 import pandas as pd
 import random
-import math
 
 app = Flask(__name__)
 app.secret_key = "cats101"
